@@ -15,9 +15,6 @@
 ### Главная страница
 ![Главная страница](screenshots/main_page.png)
 
-### Форма обратной связи
-![Форма обратной связи](screenshots/feedback_form.png)
-
 ### Страница успешной отправки
 ![Страница успешной отправки](screenshots/success_page.png)
 
