@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h2 class="text-success mb-4">Спасибо за обращение!</h2>
+                    <p class="lead">Ваше сообщение успешно отправлено и будет обработано в ближайшее время.</p>
+                    <a href="{% url 'feedback:create' %}" class="btn btn-primary mt-3">Отправить новое обращение</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %} 
