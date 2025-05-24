@@ -71,5 +71,5 @@ python manage.py runserver
 ### Feedback
 - `feedback_type` (CharField) - тип обращения
 - `description` (TextField) - описание обращения
-- `attachment` (FileField) - прикрепленный файл (опционально)
+- `attachment` (FileField) - прикрепленный файл 
 - `created_at` (DateTimeField) - дата создания 
